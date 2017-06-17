@@ -15,6 +15,7 @@
 		11DA65041EF0D61600C51CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DA65021EF0D61600C51CAB /* LaunchScreen.storyboard */; };
 		11DA650F1EF0D61700C51CAB /* HRListViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DA650E1EF0D61700C51CAB /* HRListViewTests.m */; };
 		11DA651A1EF0D61700C51CAB /* HRListViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DA65191EF0D61700C51CAB /* HRListViewUITests.m */; };
+		11DA65291EF0D62E00C51CAB /* HRListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DA65281EF0D62E00C51CAB /* HRListView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		11DA65151EF0D61700C51CAB /* HRListViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRListViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DA65191EF0D61700C51CAB /* HRListViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRListViewUITests.m; sourceTree = "<group>"; };
 		11DA651B1EF0D61700C51CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11DA65271EF0D62E00C51CAB /* HRListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRListView.h; sourceTree = "<group>"; };
+		11DA65281EF0D62E00C51CAB /* HRListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRListView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				11DA64F81EF0D61600C51CAB /* AppDelegate.m */,
 				11DA64FA1EF0D61600C51CAB /* ViewController.h */,
 				11DA64FB1EF0D61600C51CAB /* ViewController.m */,
+				11DA65271EF0D62E00C51CAB /* HRListView.h */,
+				11DA65281EF0D62E00C51CAB /* HRListView.m */,
 				11DA64FD1EF0D61600C51CAB /* Main.storyboard */,
 				11DA65001EF0D61600C51CAB /* Assets.xcassets */,
 				11DA65021EF0D61600C51CAB /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DA65291EF0D62E00C51CAB /* HRListView.m in Sources */,
 				11DA64FC1EF0D61600C51CAB /* ViewController.m in Sources */,
 				11DA64F91EF0D61600C51CAB /* AppDelegate.m in Sources */,
 				11DA64F61EF0D61600C51CAB /* main.m in Sources */,
